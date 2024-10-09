@@ -1,6 +1,5 @@
 package org.example;
 
-import javax.sound.sampled.Line;
 import java.util.Scanner;
 
 public class Ejercicio1 {
