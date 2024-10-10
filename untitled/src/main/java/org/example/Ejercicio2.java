@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejercicio2 {
     public void ejercicio2() {
         Scanner entrada = new Scanner(System.in);
+        System.out.println("*** EJERCICIO 2 ****");
 
         System.out.println("Introduce la primera palabra:");
         String palabra1= entrada.next();
@@ -23,7 +24,5 @@ public class Ejercicio2 {
         }else{
             System.out.println(palabra2+ " es más larga que " +palabra1);
         }
-
-
     }
 }
