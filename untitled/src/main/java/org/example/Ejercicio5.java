@@ -19,7 +19,7 @@ public class Ejercicio5 {
 
             if (texto.contains(palabra)) {
                 System.out.println("ENHORABUENA! HAS ACERTADO LA PALABRA!");
-                break;
+                contienePalabra=true;
             } else {
                 System.out.println("Introduce otra palabra:");
                 palabra = entrada.nextLine();
@@ -32,5 +32,8 @@ public class Ejercicio5 {
             System.out.println("LO SIENTO!! HAS PERDIDO!!");
         }
         }
+    public void ejercicio6(){
+
+    }
     }
 
