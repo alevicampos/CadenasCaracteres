@@ -18,11 +18,12 @@ public class Ejercicio6 {
         int mesNumero = 0;
         int anyoNumero = 0;
 
+        System.out.println("Introduce tu fecha de nacimiento DD/MM/AAAA1");
+        fecha = entrada.nextLine();
 
             while (error){
                 try {
-                    System.out.println("Introduce tu fecha de nacimiento DD/MM/AAAA1");
-                    fecha = entrada.nextLine();
+
                     String dia = fecha.substring(0, 2);
                     diaNumero = Integer.parseInt(dia);
                     String mes = fecha.substring(3, 5);
