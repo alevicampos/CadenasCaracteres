@@ -1,6 +1,5 @@
 package org.example;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio6 {
@@ -12,39 +11,25 @@ public class Ejercicio6 {
                 ***********************
                 """);
         Scanner entrada = new Scanner(System.in);
-        String fecha = "DD/MM/AAAA";
+        String fecha= "DD/MM/AAAA";
         boolean error = true;
-        boolean error2 = true;
+
         int diaNumero = 0;
         int mesNumero = 0;
         int anyoNumero = 0;
 
 
-
-
-
-        while ( error ){
-            try{
-                System.out.println("Introduce tu fecha de nacimiento DD/MM/AAAA1");
-                fecha = entrada.nextLine();
-                error = false;
-            }catch (InputMismatchException Error){
-                System.out.println("La fecha introducida no es válida 1");
-                entrada.nextLine();
-            }
-        }
-
-
-            while (error2){
+            while (error){
                 try {
-
+                    System.out.println("Introduce tu fecha de nacimiento DD/MM/AAAA1");
+                    fecha = entrada.nextLine();
                     String dia = fecha.substring(0, 2);
                     diaNumero = Integer.parseInt(dia);
                     String mes = fecha.substring(3, 5);
                     mesNumero = Integer.parseInt(mes);
                     String anyo = fecha.substring(6, 10);
                     anyoNumero = Integer.parseInt(anyo);
-                    error2 =false;
+                    error =false;
 
                 } catch (NumberFormatException Error) {
                     System.out.println("La fecha introducida no es válida 2");
@@ -71,7 +56,7 @@ public class Ejercicio6 {
             System.out.println("La fecha introducida no es válida 3");
             System.out.println("Introduce tu fecha de nacimiento DD/MM/AAAA2");
             fecha = entrada.nextLine();
-            
+
         }
             System.out.println("Tu número de la suerte es: " + numeroSuerte);
         }

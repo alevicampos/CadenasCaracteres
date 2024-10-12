@@ -10,6 +10,7 @@ public class Main {
 //        ejerciciosCadenas.ejercicio3();
   //        ejerciciosCadenas.ejercicio4();
  //       ejerciciosCadenas.ejercicio5();
-        ejerciciosCadenas.ejercicio6();
+       ejerciciosCadenas.ejercicio6();
+
     }
 }
