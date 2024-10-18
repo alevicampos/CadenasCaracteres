@@ -8,9 +8,9 @@ public class Calculadora {
     public void calculadora() {
 
         System.out.println("""
-                *******************************
-                * BIENVENIDO A TU CALCULADORA *
-                *******************************
+                ╔═.✵.═════════════════════════╗
+                  BIENVENIDO A TU CALCULADORA
+                ╚═════════════════════════.✵.═╝
                 """);
         Scanner entrada = new Scanner(System.in);
         double primerOperando=0;
