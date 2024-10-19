@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-         Bucles5 ejerciciosCadenas = new Bucles5();
+         Bucles8 ejerciciosCadenas = new Bucles8();
 //        ejerciciosCadenas.ejercicio1();
 //        ejerciciosCadenas.ejercicio2();
 //        ejerciciosCadenas.ejercicio3();
@@ -15,11 +15,14 @@ public class Main {
 //        ejerciciosCadenas.ejercicio7();
 //        ejerciciosCadenas.ejercicio8();
  //       ejerciciosCadenas.calculadora();
- //           ejerciciosCadenas.bucles1();
+ //       ejerciciosCadenas.bucles1();
  //       ejerciciosCadenas.bucles2();
   //      ejerciciosCadenas.bucles3();
     //    ejerciciosCadenas.bucles4();
-        ejerciciosCadenas.bucles5();
+     //   ejerciciosCadenas.bucles5();
+     //     ejerciciosCadenas.bucles6();
+//          ejerciciosCadenas.bucles7();
+        ejerciciosCadenas.bucles8();
 
 
 
