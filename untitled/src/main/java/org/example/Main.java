@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-         IsbnComprobador ejerciciosCadenas = new IsbnComprobador();
+        GeneradorPsw ejerciciosRandom = new GeneradorPsw();
 //        ejerciciosCadenas.ejercicio1();
 //        ejerciciosCadenas.ejercicio2();
 //        ejerciciosCadenas.ejercicio3();
@@ -15,17 +15,19 @@ public class Main {
 //        ejerciciosCadenas.ejercicio7();
 //        ejerciciosCadenas.ejercicio8();
  //       ejerciciosCadenas.calculadora();
- //       ejerciciosCadenas.bucles1();
- //       ejerciciosCadenas.bucles2();
-  //      ejerciciosCadenas.bucles3();
-    //    ejerciciosCadenas.bucles4();
-     //   ejerciciosCadenas.bucles5();
-     //     ejerciciosCadenas.bucles6();
-//          ejerciciosCadenas.bucles7();
-//        ejerciciosCadenas.bucles8();
-        ejerciciosCadenas.isbncomprobador();
-
-
+ //       ejerciciosBucles.bucles1();
+ //       ejerciciosBucles.bucles2();
+  //      ejerciciosBucles.bucles3();
+    //    ejerciciosBucles.bucles4();
+     //   ejerciciosBucles.bucles5();
+     //     ejerciciosBucles.bucles6();
+//          ejerciciosBucles.bucles7();
+//        ejerciciosBucles.bucles8();
+   //     ejerciciosBucles.isbncomprobador();
+     //   ejerciciosRandom.lanzamientodados();
+         ejerciciosRandom.generadorpsw();
+   //         ejerciciosRandom.generadorpsw();
+     //       ejerciciosRandom.aleatorios();
 
 
     }
