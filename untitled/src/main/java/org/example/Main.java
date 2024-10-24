@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-         Bucles8 ejerciciosCadenas = new Bucles8();
+         IsbnComprobador ejerciciosCadenas = new IsbnComprobador();
 //        ejerciciosCadenas.ejercicio1();
 //        ejerciciosCadenas.ejercicio2();
 //        ejerciciosCadenas.ejercicio3();
@@ -22,7 +22,8 @@ public class Main {
      //   ejerciciosCadenas.bucles5();
      //     ejerciciosCadenas.bucles6();
 //          ejerciciosCadenas.bucles7();
-        ejerciciosCadenas.bucles8();
+//        ejerciciosCadenas.bucles8();
+        ejerciciosCadenas.isbncomprobador();
 
 
 
