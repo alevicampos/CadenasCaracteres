@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        PreExamen6 ejerciciosRandom = new PreExamen6();
+        GeneradorPswDos ejerciciosRandom = new GeneradorPswDos();
 //        ejerciciosCadenas.ejercicio1();
 //        ejerciciosCadenas.ejercicio2();
 //        ejerciciosCadenas.ejercicio3();
@@ -27,12 +27,13 @@ public class Main {
      //   ejerciciosRandom.lanzamientodados();
     //     ejerciciosRandom.generadorpsw();
    //         ejerciciosRandom.generadorpsw();
+        ejerciciosRandom.generadorpswdos();
      //       ejerciciosRandom.aleatorios();
       //          ejerciciosRandom.preexamen1();
         //ejerciciosRandom.preexamen2();
          //ejerciciosRandom.preexamen3();
          //   ejerciciosRandom.preexamen4();
         //ejerciciosRandom.preexamen5();
-        ejerciciosRandom.preexamen6();
+     //   ejerciciosRandom.preexamen6();
     }
 }
