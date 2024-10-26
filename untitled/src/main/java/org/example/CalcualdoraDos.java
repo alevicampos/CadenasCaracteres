@@ -3,9 +3,8 @@ package org.example;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Calculadora {
-    public void calculadora() {
-
+public class CalcualdoraDos {
+    public void calculadorados(){
         System.out.println("""
                 ╔═.✵.═════════════════════════╗
                   BIENVENIDO A TU CALCULADORA
@@ -13,48 +12,58 @@ public class Calculadora {
                 """);
         Scanner entrada = new Scanner(System.in);
         double primerOperando=0;
-        double segundoOperando;
+        double segundoOperando=0;
         double resultado;
-        boolean error= true;
+        boolean error = true;
+        boolean errordos = true;
+        String signoPrimer;
+        String signo;
 
-        while (error) {
+           while (error) {
+               try {
+                   System.out.println("Introduce el primer operando (entero): ");
+                   primerOperando = entrada.nextDouble();
+                   error= false;
+               } catch (InputMismatchException e) {
+                   System.out.println("Debes introducir un número." + e.getMessage());
+                   entrada.nextLine();
+               }
+           }
+
+                   System.out.println("¿Qué operación deseas realizar \"+\", \"-\", \"*\", \"/\", \"R\"?");
+                   signoPrimer = entrada.next();
+                   signo = signoPrimer.toUpperCase();
+        while (errordos) {
             try {
-                System.out.println("Introduce el primer operando (entero): ");
-                primerOperando = entrada.nextDouble();
-                error = false;
+
+                if (signo.equals("+") || signo.equals("-") || signo.equals("*") || signo.equals("/")) {
+                    System.out.println("Introduce el segundo operando: ");
+                    segundoOperando = entrada.nextDouble();
+                }
+                errordos = false;
             } catch (InputMismatchException e) {
                 System.out.println("Debes introducir un número." + e.getMessage());
                 entrada.nextLine();
             }
         }
 
-        System.out.println("¿Qué operación deseas realizar \"+\", \"-\", \"*\", \"/\", \"R\"?");
-        String signoPrimer = entrada.next();
-        String signo = signoPrimer.toUpperCase();
-
         switch (signo){
             case ("+"):
-                System.out.println("Introduce el segundo operando: ");
-                segundoOperando = entrada.nextDouble();
                 resultado = primerOperando + segundoOperando;
                 System.out.println("El resultado de la suma es = " + resultado);
                 break;
             case ("-"):
-                System.out.println("Introduce el segundo operando: ");
-                segundoOperando = entrada.nextDouble();
+
                 resultado = primerOperando-segundoOperando;
                 System.out.println("El resultado de la resta es = " + resultado);
                 break;
             case ("*"):
-                System.out.println("Introduce el segundo operando: ");
-                segundoOperando = entrada.nextDouble();
+
                 resultado = primerOperando * segundoOperando;
                 System.out.println("El resultado de la multiplicación es = " + resultado);
                 break;
             case ("/"):
 
-                System.out.println("Introduce el segundo operando: ");
-                segundoOperando = entrada.nextDouble();
                 if (segundoOperando != 0) {
                     resultado = primerOperando / segundoOperando;
                     System.out.println("El resultado de la división es = " + resultado);
@@ -63,12 +72,12 @@ public class Calculadora {
                 }
                 break;
             case ("R"):
-                if (primerOperando >0) {
+                if (primerOperando >= 0) {
                     resultado = Math.sqrt(primerOperando);
                     System.out.println("El resultado de la raíz cuadrada es = " + resultado);
                 }else{
-                        System.out.println("El operando no puede ser negativo");
-                    }
+                    System.out.println("El operando no puede ser negativo");
+                }
                 break;
             default:
                 System.out.println("El operando introducido no es válido");
@@ -78,3 +87,4 @@ public class Calculadora {
 
     }
 }
+
