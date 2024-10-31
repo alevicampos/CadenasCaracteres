@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        CalcualdoraDos ejerciciosCadenas = new CalcualdoraDos();
+        PreExamen7 ejerciciosRandom = new PreExamen7();
   //          ejercicioExamen.ejerciciorepaso();
 //        ejerciciosCadenas.ejercicio1();
 //        ejerciciosCadenas.ejercicio2();
@@ -16,7 +16,7 @@ public class Main {
 //        ejerciciosCadenas.ejercicio7();
 //        ejerciciosCadenas.ejercicio8();
  //       ejerciciosCadenas.calculadora();
-        ejerciciosCadenas.calculadorados();
+  //      ejerciciosCadenas.calculadorados();
  //       ejerciciosBucles.bucles1();
  //       ejerciciosBucles.bucles2();
   //      ejerciciosBucles.bucles3();
@@ -33,9 +33,10 @@ public class Main {
      //       ejerciciosRandom.aleatorios();
       //          ejerciciosRandom.preexamen1();
         //ejerciciosRandom.preexamen2();
-         //ejerciciosRandom.preexamen3();
+        // ejerciciosRandom.preexamen3();
          //   ejerciciosRandom.preexamen4();
         //ejerciciosRandom.preexamen5();
      //   ejerciciosRandom.preexamen6();
+        ejerciciosRandom.preexamen7();
     }
 }
