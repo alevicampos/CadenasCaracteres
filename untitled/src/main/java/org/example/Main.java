@@ -4,8 +4,19 @@ public class Main {
 
     public static void main(String[] args) {
 
-        PreExamen7 ejerciciosRandom = new PreExamen7();
-  //          ejercicioExamen.ejerciciorepaso();
+        EjercicioArrays10 ejerciciosArrays = new EjercicioArrays10();
+
+        //   ejerciciosArrays.ejercicioArrays1();
+         //   ejerciciosArrays.ejercicioArrays2();
+        //    ejerciciosArrays.ejercicioArrays3();
+        //    ejerciciosArrays.ejercicioArrays4();
+        //   ejerciciosArrays.ejercicioArrays5();
+        //   ejerciciosArrays.ejercicioArrays6();
+        //    ejerciciosArrays.ejercicioArrays7();
+        //    ejerciciosArrays.ejercicioArrays8();
+  //          ejerciciosArrays.ejercicioArrays9();
+           ejerciciosArrays.ejercicioArrays10();
+        //ejercicioExamen.ejerciciorepaso();
 //        ejerciciosCadenas.ejercicio1();
 //        ejerciciosCadenas.ejercicio2();
 //        ejerciciosCadenas.ejercicio3();
@@ -37,6 +48,7 @@ public class Main {
          //   ejerciciosRandom.preexamen4();
         //ejerciciosRandom.preexamen5();
      //   ejerciciosRandom.preexamen6();
-        ejerciciosRandom.preexamen7();
+    //    ejerciciosRandom.preexamen7();
+
     }
 }
