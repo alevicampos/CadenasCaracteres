@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        EjercicioArrays10 ejerciciosArrays = new EjercicioArrays10();
-
+        Samurais ejerciciosArrays = new Samurais();
+            ejerciciosArrays.samurais();
         //   ejerciciosArrays.ejercicioArrays1();
          //   ejerciciosArrays.ejercicioArrays2();
         //    ejerciciosArrays.ejercicioArrays3();
@@ -15,7 +15,7 @@ public class Main {
         //    ejerciciosArrays.ejercicioArrays7();
         //    ejerciciosArrays.ejercicioArrays8();
   //          ejerciciosArrays.ejercicioArrays9();
-           ejerciciosArrays.ejercicioArrays10();
+    //       ejerciciosArrays.ejercicioArrays10();
         //ejercicioExamen.ejerciciorepaso();
 //        ejerciciosCadenas.ejercicio1();
 //        ejerciciosCadenas.ejercicio2();

@@ -13,6 +13,7 @@ public class EjercicioArrays10 {
         System.out.print("Las palabras que emiezan por "+letraChar+ " son: ");
         for(int i = 0; i< palabras.length; i++){
             String palabra = palabras[i];
+      //      if(Character.toString(char)
             if (palabra.charAt(0) == letraChar){
                 System.out.print(palabra+" ,");
             }
