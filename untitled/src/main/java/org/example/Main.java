@@ -4,18 +4,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Samurais ejerciciosArrays = new Samurais();
-            ejerciciosArrays.samurais();
-        //   ejerciciosArrays.ejercicioArrays1();
+        EjercicioArrays10 ejerciciosArrays = new EjercicioArrays10();
+        //    ejerciciosArrays.samurais();
+         //  ejerciciosArrays.ejercicioArrays1();
          //   ejerciciosArrays.ejercicioArrays2();
-        //    ejerciciosArrays.ejercicioArrays3();
+         //   ejerciciosArrays.ejercicioArrays3();
         //    ejerciciosArrays.ejercicioArrays4();
         //   ejerciciosArrays.ejercicioArrays5();
         //   ejerciciosArrays.ejercicioArrays6();
         //    ejerciciosArrays.ejercicioArrays7();
-        //    ejerciciosArrays.ejercicioArrays8();
-  //          ejerciciosArrays.ejercicioArrays9();
-    //       ejerciciosArrays.ejercicioArrays10();
+         //   ejerciciosArrays.ejercicioArrays8();
+        //    ejerciciosArrays.ejercicioArrays9();
+           ejerciciosArrays.ejercicioArrays10();
         //ejercicioExamen.ejerciciorepaso();
 //        ejerciciosCadenas.ejercicio1();
 //        ejerciciosCadenas.ejercicio2();

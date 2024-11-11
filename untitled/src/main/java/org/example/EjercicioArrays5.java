@@ -1,21 +1,18 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class EjercicioArrays5 {
     public void ejercicioArrays5(){
 
         int[] numeros = {1, 2, 3, 4, 5};
+        int[] numerosClonado = numeros.clone();
+        int[] rotado = new int[numerosClonado.length];
 
-        for (int i = numeros.length - 1; i > 0; i--) {
-            numeros[i] = numeros[i - 1];
-        }
+        rotado [0] = numerosClonado[numerosClonado.length-1];
+        System.arraycopy(numerosClonado,0,rotado,1, numerosClonado.length-1);
+        System.out.println("Array Original: " + Arrays.toString(numeros));
+        System.out.println("Array Rotado: " + Arrays.toString(rotado));
 
-        int ultimoIndice = numeros.length;
-        numeros[0] = ultimoIndice;
-
-        System.out.print("Array rotado: ");
-        for (int i = 0; i < numeros.length; i++) {
-            System.out.print(numeros[i]+",");
-
-        }
     }
 }

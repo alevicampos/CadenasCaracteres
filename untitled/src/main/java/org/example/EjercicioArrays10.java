@@ -3,21 +3,32 @@ package org.example;
 import java.util.Scanner;
 
 public class EjercicioArrays10 {
-    public void ejercicioArrays10(){
-       String palabras[] = {"Amparo", "Alejandra", "Patricia"};
+    public void ejercicioArrays10() {
+        String palabras[] = {"Amparo", "Alejandra", "Patricia"};
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Introduce una letra");
-        String letra = entrada.next().toUpperCase();
-        char letraChar = letra.charAt(0);
+        String letra;
+        char letraChar = ' ';
 
-        System.out.print("Las palabras que emiezan por "+letraChar+ " son: ");
-        for(int i = 0; i< palabras.length; i++){
-            String palabra = palabras[i];
-      //      if(Character.toString(char)
-            if (palabra.charAt(0) == letraChar){
-                System.out.print(palabra+" ,");
+        while (true) {
+            System.out.println("Introduce una letra: ");
+            letra = entrada.next().toUpperCase();
+
+            // Verificar que el valor introducido sea sólo una letra
+            // No sé como controlar que me introduzca un número y no una letra
+            if (letra.length() == 1) {
+                letraChar = letra.charAt(0);
+                break; // Salimos del bucle si la entrada es buena
+            } else {
+                System.out.println("Entrada no válida. Debes introducir una sola letra.");
             }
         }
 
+        System.out.print("Las palabras que empiezan por " + letraChar + " son: ");
+        for (String palabra : palabras) {
+            if (palabra.charAt(0) == letraChar) {
+                System.out.print(palabra + ", ");
+            }
+        }
     }
 }
+

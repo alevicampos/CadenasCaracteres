@@ -1,17 +1,30 @@
 package org.example;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class EjercicioArrays2 {
     public void ejercicioArrays2(){
         Scanner entrada = new Scanner(System.in);
+        boolean error = true;
+        int[] numeros = new int[5];
 
-        System.out.println("introduce los números a invertir");
-        int numeros[]= new int[5];
+        while (error) {
+            System.out.println("Introduce los números a invertir:");
 
-        for(int i=0; i<numeros.length; i++){
+            for (int i = 0; i < numeros.length; i++) {
+                System.out.println("Número "+ (i+1) +": ");
 
-            numeros [i] = entrada.nextInt();
+                try {
+                    numeros[i] = entrada.nextInt();
+                    error = false;
+
+                } catch (InputMismatchException e) {
+                    System.out.println("Tienes que introducir un número.");
+                    entrada.nextInt();
+
+                }
+            }
         }
 //        for (int i = numeros.length-1;i>=0;i-- ){
 //            System.out.println(numeros[i]+",");

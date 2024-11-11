@@ -7,7 +7,7 @@ public class EjercicioArrays3 {
     public void ejercicioArrays3() {
         Random random = new Random();
         Scanner entrada = new Scanner(System.in);
-        int numeros[] = new int[25];
+        int[] numeros = new int[25];
         int contador = 0;
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = random.nextInt(101);
