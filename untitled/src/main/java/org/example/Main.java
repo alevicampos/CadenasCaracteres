@@ -4,7 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        EjercicioArrays10 ejerciciosArrays = new EjercicioArrays10();
+        EliminarDuplicados ejerciciosArrays = new EliminarDuplicados();
+        ejerciciosArrays.eliminarduplicados();
+        //ejerciciosArrays.metodosort();
+        //      ejerciciosArrays.ruletasuerte();
+        //    ejerciciosArrays.navidad();
         //    ejerciciosArrays.samurais();
          //  ejerciciosArrays.ejercicioArrays1();
          //   ejerciciosArrays.ejercicioArrays2();
@@ -15,7 +19,7 @@ public class Main {
         //    ejerciciosArrays.ejercicioArrays7();
          //   ejerciciosArrays.ejercicioArrays8();
         //    ejerciciosArrays.ejercicioArrays9();
-           ejerciciosArrays.ejercicioArrays10();
+         //  ejerciciosArrays.ejercicioArrays10();
         //ejercicioExamen.ejerciciorepaso();
 //        ejerciciosCadenas.ejercicio1();
 //        ejerciciosCadenas.ejercicio2();
