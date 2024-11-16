@@ -4,8 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        EliminarDuplicados ejerciciosArrays = new EliminarDuplicados();
-        ejerciciosArrays.eliminarduplicados();
+        LoteriaPrimitiva ejerciciosArrays = new LoteriaPrimitiva();
+        ejerciciosArrays.loteriaprimitiva();
+        //ejerciciosArrays.eliminarduplicados();
         //ejerciciosArrays.metodosort();
         //      ejerciciosArrays.ruletasuerte();
         //    ejerciciosArrays.navidad();
