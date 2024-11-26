@@ -4,8 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LoteriaPrimitiva ejerciciosArrays = new LoteriaPrimitiva();
-        ejerciciosArrays.loteriaprimitiva();
+        SopaLetras ejerciciosArrays = new SopaLetras();
+
+        ejerciciosArrays.sopaletras();
+       // ejerciciosArrays.tablasclasificaciones();
+        //ejerciciosArrays.sumafilascolumnas();
+       // ejerciciosArrays.buscarnumeromatriz();
+       // ejerciciosArrays.matrices();
+      //  ejerciciosArrays.numerosprimos();
+      // ejerciciosArrays.tablasmultiplicar();
+     //   ejerciciosArrays.triangulo();
+        // ejerciciosArrays.loteriaprimitiva();
         //ejerciciosArrays.eliminarduplicados();
         //ejerciciosArrays.metodosort();
         //      ejerciciosArrays.ruletasuerte();
